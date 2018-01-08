@@ -1,0 +1,39 @@
+01 07		//load 7 to Accumulator
+21 91		//store the Accumulator to M1
+05 13		//add 13 to 7 and keep 20 in the Accumulator
+99 99		//print the contents of the Accumulator
+06 12		//subtract 12 from 20 and keep 8 in the Accumulator
+21 91		//store 8 to M1
+99 91		//print the contents of M1
+01 19
+05 13
+0B 03
+21 92
+99 92
+01 00		//Clear the Accumulator
+06 19
+0B 11
+0C 05
+99 99		//Print the Accumulator
+05 31
+05 12
+06 11
+0C 07
+0B 11
+06 71
+99 99
+01 00
+05 07
+05 09
+0B 16
+0B 03
+0C 07
+99 99
+21 91
+99 91
+99 92
+01 00
+21 91
+21 92
+99 91
+99 92
